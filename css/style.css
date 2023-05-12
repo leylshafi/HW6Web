@@ -1,0 +1,567 @@
+:root {
+    --yasil: #54d154;
+}
+html { scroll-behavior: smooth }
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background: url('../img/headerbg.jpg') center/cover;
+    padding: 5px 30px
+}
+#menu li:hover
+{
+    border-top: 4px solid var(--yasil);
+}
+
+#menu li a {
+    font: normal 1rem "Proxima Nova";
+    color: #fff;
+}
+#workwithus
+{
+    border: 0px;
+    border-radius: 100px;
+    background-color: var(--yasil);
+    padding: 16px 28px;
+    font-size: 1.4rem;
+    color: #fff;
+    font-family: "Proxima Nova";
+    text-align: center;
+}
+
+#scrollbtn
+{
+    padding: 6px 12px;
+    border-color: transparent;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: #111;
+    font-weight: 300;
+    font-family: "Proxima Nova";
+    text-align: center;
+}
+
+section h3
+{
+    font-size: 1.5rem;
+    color: #828181;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+    text-align: center;
+    margin: 28px 0;
+}
+section p
+{
+    font-size: 0.9rem;
+    color: #828181;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.arts button
+{
+    background-color: var(--yasil);
+    border-color: transparent;
+    margin: 25px 0;
+    padding: 9px 20px;
+    border-radius: 20px;
+
+    font:bold 1rem "Proxima Nova";
+    color: #fff;
+    text-align: center;
+}
+
+#viewmorebtn
+{
+    border-color: transparent;
+    padding: 12px 20px;
+    border-radius: 25px;
+    background-color: #2b9b2b;
+    font-size: 1.1rem;
+    color: #fff;
+    font-family: "Proxima Nova";
+    text-align: center;
+    margin: 45px 0;
+}
+h1 {
+    font: bold 2rem Montserrat;
+    color: #fff;
+    text-transform: capitalize;
+}
+h2 {
+    font: 1.3rem Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #828181;
+    font-family: "Montserrat";
+    padding: 10px;
+}
+h6 {
+    font: normal 1rem "Myriad Pro";
+    color: #b7b3b3;
+    padding: 10px
+}
+.bgyasil h2 { color: #1f7b1f }
+.bgyasil h6 { color: #2b9b2b }
+hr {
+  width: 43px;
+  height: 2px;
+  background-color: #828181;
+  margin: auto;
+} 
+.bgyasil hr { background-color: #1f7b1f; }
+
+#search { display: flex }
+
+#search * {
+    background: #ffffffcc;
+    height: 27px;
+    padding: 5px 15px;
+    border: none;
+    outline: none ;
+}
+#search input:first-child { border-radius: 15px 0 0 15px; }
+#search input:last-child { 
+    border-radius: 0 15px 15px 0;
+    background: #ffffffcc url('../img/magnifying-glass.svg') center/1rem no-repeat ; 
+}
+
+main > section { 
+    padding: 40px;
+    text-align: center; 
+}
+.arts { padding: 40px 10px }
+.arts article { padding: 20px 0; }
+.icon {
+    display: flex;
+    margin: auto;
+    background-color: #e0f3e0;
+    width: 140px;
+    height: 140px;
+    border-radius: 25px;
+ }
+
+.icon i {
+    margin: auto;
+    color: var(--yasil);
+    font-size: 4.5em;
+}
+
+.btns { 
+    display: flex; 
+    width: 100%; 
+    padding: 50px;
+    justify-content: center; 
+}
+.btns button {
+    height: 33px;
+    border: 1px solid #2b9b2b;
+    background: #fff;
+    font: normal 1rem "Proxima Nova";
+    color: #2b9b2b;
+    padding: 6px 20px;
+}
+.btns button:first-child { border-radius: 18px 0 0 18px; }
+.btns button:last-child { border-radius: 0 18px 18px 0;  }
+
+.btns button:hover, .btns button.active { background: #2b9b2b; color: #fff  }
+
+.bgyasil { background-color: var(--yasil) }
+.bgboz { background-color: #f1f1f1 }
+
+.imgs  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imgs img {
+    margin: 1rem;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.containertest
+{
+    display: flex;
+    justify-content: center;
+}
+.containertest p
+{
+    font-size: 1rem;
+    color: #444;
+    font-family: "Proxima Nova";
+    width: 80%;
+    margin: auto;
+}
+.graycolor
+{
+    color: #dfdfdf;
+    font-size: 30px;
+}
+.words h4
+{
+    font-size: 1rem;
+    color: #ccc;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+    text-align: center;
+}
+.words h5
+{
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #444;
+    font-family: "Proxima Nova";
+    text-align: center;
+}
+.meme
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.imgs
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon2
+{
+    width: 240px; 
+    height: 70px;
+    margin: 20px 0px;
+}
+.google
+{
+    background: url(../img/google.png) no-repeat;
+    background-position: 40px ;
+}
+.yahoo
+{
+    background: url(../img/yahoo.png) no-repeat;
+    background-position: 40px ;
+}
+.apple
+{
+    background: url(../img/apple.png) no-repeat;
+    background-position: 90px 0px;
+   
+}
+.asus
+{
+    background: url(../img/asus.png) no-repeat;
+    background-position: 40px ;
+}
+.cisco
+{
+    background: url(../img/cisco.png) no-repeat;
+    background-position: 40px ;
+}
+.intel
+{
+    background: url(../img/intel.png) no-repeat;
+    background-position: 40px ;
+}
+.microsoft
+{
+    background: url(../img/microsoft.png) no-repeat;
+    background-position: 40px ;
+}
+.qualcomm
+{
+    background: url(../img/qualcomm.png) no-repeat;
+    background-position: 40px ;
+}
+.seeallbtn
+{
+    border-color: transparent;
+    padding: 12px 20px;
+    border-radius: 25px;
+    background-color: #dddcdc;
+    font-size: 1.1rem;
+    color: #a9a1a1;
+    font-family: "Proxima Nova";
+    text-align: center;
+    margin: 10px 0 ;
+}
+.cart
+{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cart hr
+{
+    height: 76px;
+    width: 2px;
+    margin: 10px;
+}
+.cart h6
+{
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Proxima Nova";
+    text-align: center;
+}
+.img
+{
+    overflow: hidden;
+    padding-top: 10px;
+    background-color: #fff;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+.team
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cart
+{
+    margin: 50px;
+}
+.sm
+{
+    background-color: #c5e9c5;
+    padding: 3px 4px;
+    border-radius: 20px;
+    text-align: center;
+}
+.sm i
+{
+    font-size: 1.3rem;
+    margin: 4px;
+}
+.basket
+{
+    color: #e65a8f;
+}
+.be
+{
+    color: #0061ff;
+}
+.twitter
+{
+    color: #00abed;
+}
+.facebook
+{
+    color: #1d52aa;
+}
+.wwus
+{
+    width: 100%;
+    height: 90px;
+    background-color: #3eba3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wwusbtn
+{
+    border: 0px;
+    border-radius: 100px;
+    background-color: var(--yasil);
+    padding: 13px 24px;
+    font-size: 1.4rem;
+    color: #fff;
+    font-family: "Proxima Nova";
+    text-align: center;
+    box-shadow: 1px 1px 10px #38a838;
+    text-transform: uppercase;
+}
+footer
+{
+    background-color: #333;
+}
+.footercontainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footercontainer h6
+{
+    font-size: 1rem;
+    letter-spacing: 3px;
+    color: #ddd;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.footercontainer hr
+{
+    color: #ddd;
+}
+.footercontainer section
+{
+    width: 350px;
+}
+.footercontainer p
+{
+    font-size: 1rem;
+    color: #ccc;
+    font-family: "Proxima Nova";
+    text-align: center;
+    margin: 25px;
+}
+.footercontainer .sm 
+{
+    width: 100px;
+    background-color: #e6e7e6;
+    padding: 4px 5px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+.allposts
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+.post
+{
+    display: flex;
+}
+.postdesc h4
+{
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    color: #fff;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 0px;
+}
+.postdesc p
+{
+    margin: 8px;
+}
+.h4
+{
+    padding: 5px 6px;
+    border-radius: 2px;
+    width: fit-content;
+    margin: 8px;
+}
+.magazineh4
+{
+    background-color: #53d153;
+}
+.uih4
+{
+    background-color: #ffba00;
+}
+.photoh4
+{
+    background-color: #089cea;
+}
+.bookh4
+{
+    background-color: #f34c03;
+}
+.uidesh4
+{
+    background-color: #ffba00;
+}
+.postimg
+{
+    width: 55px;
+    height: 55px;
+    border-radius: 4px;
+}
+.magazine
+{
+    background: url(../img/magazine.jpg) center/cover;
+}
+.ui
+{
+    background: url(../img/ui.jpg) center/cover;
+}
+.photography
+{
+    background: url(../img/photography.jpg) center/cover;
+}
+.book
+{
+    background: url(../img/book.jpg) center/cover;
+}
+.uides
+{
+    background: url(../img/uides.jpg) center/cover;
+}
+.info
+{
+    margin-top: 20px;
+}
+.info p
+{
+    font-size: 14px;
+    color: #ccc;
+    font-weight: 300;
+    font-family: "Proxima Nova";
+    text-align: center;
+    margin: 5px;
+}
+.input
+{
+    background-color: #444;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #777;
+    font-family: "Proxima Nova";
+    border-color: transparent;
+    margin: 1px;
+}
+.name
+{
+    border-radius: 3px 3px 0 0;
+}
+.message
+{
+    height: 130px;
+}
+.submit
+{
+    border-radius: 0 0 3px 3px;
+    background-color: #2b9b2b;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 768px) {
+    nav { 
+        width: 100%;  
+        display: flex;
+        justify-content: space-between; 
+    }
+    #menu { 
+        display: flex;
+        order: -1;
+    }
+    #menu li { 
+        padding: 0 10px;
+    }
+    h1 { font-size: 3.4rem }
+    .arts { display: flex }
+    .arts article { padding: 20px 40px; }
+
+    .imgs { max-width: 1000px; margin: auto }
+    .imgs img {
+        width: 160px;
+        height: 160px;
+    }
+}
